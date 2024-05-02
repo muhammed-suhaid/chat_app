@@ -3,14 +3,14 @@ import 'package:flutter/material.dart';
 
 final _firebase = FirebaseAuth.instance;
 
-class LoginScreen extends StatefulWidget {
-  const LoginScreen({super.key});
+class AuthScreen extends StatefulWidget {
+  const AuthScreen({super.key});
 
   @override
-  State<LoginScreen> createState() => _LoginScreenState();
+  State<AuthScreen> createState() => _LoginScreenState();
 }
 
-class _LoginScreenState extends State<LoginScreen> {
+class _LoginScreenState extends State<AuthScreen> {
   final _formKey = GlobalKey<FormState>();
 
   var _isLogin = true;
@@ -32,13 +32,11 @@ class _LoginScreenState extends State<LoginScreen> {
           email: _enteredEmail,
           password: _enteredPassword,
         );
-        print(userCredientials);
       } else {
         final userCredientials = await _firebase.createUserWithEmailAndPassword(
           email: _enteredEmail,
           password: _enteredPassword,
         );
-        print(userCredientials);
       }
     } on FirebaseAuthException catch (error) {
       if (error.code == 'email-already-in-use') {}
