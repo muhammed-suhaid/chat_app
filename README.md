@@ -16,6 +16,10 @@ Chat App brings people closer together with its seamless and intuitive chat plat
 2. **Registration Page** :  User-friendly registration page where new users can create an account by providing their email, username, password, and profile photo.
 3. **Chat Page** : The central hub of Chat App, displaying ongoing conversations in a visually appealing and user-friendly interface.
 
+### Integration with Firebase Services:
+Utilizes Firebase SDK for seamless integration with Firebase services, including Firebase Authentication, Firestore, and Firebase Cloud Messaging, ensuring secure user authentication, reliable message storage, and efficient push notifications.
+
+
 
 
    
