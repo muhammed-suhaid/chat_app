@@ -9,7 +9,7 @@ Chat App brings people closer together with its seamless and intuitive chat plat
 3. **Logout Feature** : Users can securely log out of their accounts with the logout feature, providing additional security and privacy for their accounts.
 4. **Chat Page** : Upon successful login or registration, users are directed to a common chat page where they can interact with other registered users and engage in conversations.
 5. **Send and Receive Messages** :  Users can send and receive messages in real-time, fostering seamless communication and connection with others.
-6. **Firebase Integration** :  Chatly seamlessly integrates with Firebase services, including Firebase Authentication for user authentication, Firestore for message storage, and Firebase Cloud Messaging for push notifications, ensuring a reliable and secure chat experience.
+6. **Firebase Integration** :  Chat App seamlessly integrates with Firebase services, including Firebase Authentication for user authentication, Firestore for message storage, and Firebase Cloud Messaging for push notifications, ensuring a reliable and secure chat experience.
 
 ### User Interface :
 1. **Login Page** : Secure login page where users can enter their registered email and password to access their accounts and start chatting.
